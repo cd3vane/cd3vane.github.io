@@ -18,8 +18,6 @@ description: Movie Social Media App created with the MERN Stack and deployed via
 <video src="https://user-images.githubusercontent.com/50383155/209984785-e905f30d-ae70-4d3c-b27e-bcbcd3dbc487.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
-
-
 ## Features
 - Create Account / Login functionality
 - Customizable profile
@@ -28,9 +26,6 @@ description: Movie Social Media App created with the MERN Stack and deployed via
 - Integration with TMDB to view details of popular movies
 - Ability to search for specific movies
 - Profile listings to see what other users are watching
-
-
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
 
 ## Movie Details w/ User Review
 <img src="https://user-images.githubusercontent.com/50383155/209987726-46a2b92a-b418-4312-a80d-88e692d10614.JPG" alt="" width="600" height="700" />
