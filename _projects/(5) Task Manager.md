@@ -9,7 +9,7 @@ description: Fabulous is a science-based app, incubated in Duke's Behavioral Eco
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/cd3vane/calculator-app" text="View Source" %}
-{% include elements/button.html link="https://github.com/cd3vane/calculator-app" text="Live Demo"" %}
+{% include elements/button.html link="https://github.com/cd3vane/calculator-app" text="Live Demo" %}
 </p>
 
 
