@@ -8,7 +8,7 @@ description: Calculator App built test first with JUnit using the memento design
 # Calculator App
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/cd3vane/" text="View Source" %}
+{% include elements/button.html link="https://github.com/cd3vane/calculator-app" text="View Source" %}
 </p>
 
 
