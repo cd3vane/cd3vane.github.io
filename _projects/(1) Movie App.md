@@ -14,7 +14,9 @@ description: Movie Social Media App created with the MERN Stack and deployed via
 {% include elements/button.html link="https://movie.cd3vane.dev" text="Live Demo" %}
 </p>
 
-https://user-images.githubusercontent.com/50383155/209984785-e905f30d-ae70-4d3c-b27e-bcbcd3dbc487.mp4
+<video src="https://user-images.githubusercontent.com/50383155/209984785-e905f30d-ae70-4d3c-b27e-bcbcd3dbc487.mp4" controls="controls" style="max-width: 730px;">
+</video>
+
 
 
 ## Features
