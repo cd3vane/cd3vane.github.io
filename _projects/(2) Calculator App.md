@@ -1,7 +1,7 @@
 ---
 name: Calculator App
 tools: [Java, JUnit, Swing GUI]
-image: https://images.unsplash.com/photo-1624466681600-591d08396866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhbGN1bGF0b3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60
+image: https://images.unsplash.com/photo-1636033503567-a59bff19d79a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGNhbGN1bGF0b3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60
 description: Calculator App built test first with JUnit using the memento design pattern to maintain calculator history state 
 ---
 
