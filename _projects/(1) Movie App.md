@@ -7,13 +7,14 @@ description: Movie Social Media App created with the MERN Stack and deployed via
 
 # The Movies Project
 
-<p class="text-center">
+<p>
 {% include elements/button.html link="https://github.com/cd3vane/movie-app-v2" text="View Source" %}
 </p>
-<p class="text-center">
+<p>
 {% include elements/button.html link="https://movie.cd3vane.dev" text="Live Demo" %}
 </p>
 
+## Feature Demo
 <video src="https://user-images.githubusercontent.com/50383155/209984785-e905f30d-ae70-4d3c-b27e-bcbcd3dbc487.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
@@ -31,7 +32,9 @@ description: Movie Social Media App created with the MERN Stack and deployed via
 
 ![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
 
-## Search Movies
+## Movie Details w/ User Review
+<img src="https://user-images.githubusercontent.com/50383155/209987726-46a2b92a-b418-4312-a80d-88e692d10614.JPG" alt="" width="600" height="700" />
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
+## User Created Lists
+<img src="https://user-images.githubusercontent.com/50383155/209987748-c85e4317-d11a-4826-bfa2-24b937c94e54.JPG" alt="" width="600" height="700" />
 
