@@ -1,8 +1,8 @@
 ---
 name: Task Manager
 tools: [React, HTML/CSS/JS]
-image: https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/material_design_awards_inline_002.jpg
-description: Fabulous is a science-based app, incubated in Duke's Behavioral Economics Lab, that will help you build healthy rituals into your life, just like an elite athlete.
+image: https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZW1haWx8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60
+description: Simple task manager using json server to mimic a real backend and save tasks
 ---
 
 # Calculator App
@@ -14,7 +14,3 @@ description: Fabulous is a science-based app, incubated in Duke's Behavioral Eco
 
 
 ## Features
-- Currently basic 4 function calculator
-- Ability to undo opperations
-- Designed to be extendable
-- GUI made with Swing JFrame
