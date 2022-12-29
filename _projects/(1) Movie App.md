@@ -9,8 +9,6 @@ description: Movie Social Media App created with the MERN Stack and deployed via
 
 <p>
 {% include elements/button.html link="https://github.com/cd3vane/movie-app-v2" text="View Source" %}
-</p>
-<p>
 {% include elements/button.html link="https://movie.cd3vane.dev" text="Live Demo" %}
 </p>
 
