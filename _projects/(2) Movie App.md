@@ -25,6 +25,15 @@ description: Movie Social Media App created with the MERN Stack and deployed via
 - Ability to search for specific movies
 - Profile listings to see what other users are watching
 
+
+## What I used/learned
+- Node.js and Express for API endpoints
+- MongoDB for data: users, profiles, lists
+- External API TMDB for popular movie data as well as search functionality
+- Postman for Node.JS API testing
+- React for dynamic frontend
+- Redux for stateful design
+
 ## Movie Details w/ User Review
 <img src="https://user-images.githubusercontent.com/50383155/209987726-46a2b92a-b418-4312-a80d-88e692d10614.JPG" alt="" width="600" height="700" />
 
