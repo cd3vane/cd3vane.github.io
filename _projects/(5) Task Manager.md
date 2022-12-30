@@ -13,4 +13,6 @@ description: Simple task manager using json server to mimic a real backend and s
 </p>
 
 
-## Features
+## Feature Demo
+<video src="https://user-images.githubusercontent.com/50383155/210098232-5cc2acf4-5605-416b-88f9-5113fcd54831.mp4" controls="controls" style="max-width: 730px;">
+</video>
