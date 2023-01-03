@@ -1,17 +1,28 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Site Analyst, Motionpoint
+  from: May 2021
+  to: December 2022
+  description: Utilized web crawling technologies to accurately measure and assess opportunity sizes.
+              Leveraged knowledge of HTML/CSS/JS to provide analysis of the complexity and size of prospect customer’s websites.
+              Provided the company with unique solutions to improve workflow outside of the scope of my role
+              Developed Python solutions that have eliminated aspects of the role that previously required extra manual labor. 
+              Answering/explaining technical/scope of work questions from prospective customers.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- title: Full Stack Developer, Area Code 407 Kids
+  from: March 2021
+  to: August 2021
+  description: Worked with PHP, CSS, and HTML to update and style the website to specifications of the employer. 
+              Utilized PHP MyAdmin as well as SQL backend to manage content in databases.
+              Worked directly with the employer to create and assign a styling system to products that could be used to efficiently manage the database and speed up future workflow.
+
+- title: Instructor, Mathnasium Boca Raton
+  from: August 2020
+  to: May 2021
+  description: Worked with students on a wide range of concepts from Elementary School basics through college level courses in in Algebra, Calculus and Differential Equations.
+
+
+- title: Calculus Learning Assistant and Mentor, Florida Atlantic University
+  from: August 2018
+  to: May 2020
+  description: Assisting students in the calculus course by hosting office hours and attending the same lectures as the students each semester. 
+              This program is shown to significantly improve the performance of students in these courses by actively engaging students with the material.
