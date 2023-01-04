@@ -8,8 +8,7 @@ description: Simple task manager using json server to mimic a real backend and s
 # Calculator App
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/cd3vane/calculator-app" text="View Source" %}
-{% include elements/button.html link="https://github.com/cd3vane/calculator-app" text="Live Demo" %}
+{% include elements/button.html link="https://github.com/cd3vane/task-manager" text="View Source" %}
 </p>
 
 
