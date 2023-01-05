@@ -1,7 +1,13 @@
-# Improved Portfolio Website
+# <a href="https://cd3vane.dev" target="_blank">My Personal Portfolio</a>
 
-I have an older version of a portfolio built from scratch [here](https://github.com/cd3vane/cd3vane-first-portfolio). The reason I have moved to this version is mainly for ease
-of access to important data. Portfolio projects are now front and center as soon as you click on the site.
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/cd3vane/cd3vane.github.io)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://cd3vane.dev)
+[![Author](https://img.shields.io/badge/Author-Charles-DeVane.svg)](https://www.linkedin.com/in/cd3vane/)
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-24%20March%202022-yellow.svg)](https://github.com/cd3vane/cd3vane.github.io/commit/master)
+
+ <p align="justify">This website serves as an online résumé and displays my web presence, story, work experience, education, projects, achievements, and contact information. It was created using [this tmeplate](https://github.com/YoussefRaafatNasry/portfolYOU)/p>
+
+
 
 
 
