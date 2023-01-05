@@ -15,4 +15,11 @@ description: CRUD Application with Spring Boot REST API backend and ReactJS Fron
 - `GET /` - Get all employees
 - `GET /{id}` - Get single employee by ID
 - `POST /` - Add new employee
+- `PUT /{id}` - Update employee details
+- `DELETE /{id}` - Delete employee
+
+## Employee Fields
+id, firstName, lastName, email, role
+
+## Demo Coming soon...
 

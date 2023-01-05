@@ -1,4 +1,4 @@
----
+<!---
 title: What is version control?
 tags: [Version Control]
 style: fill
@@ -41,4 +41,4 @@ Version Control Systems (VCS) have seen great improvements over the past few dec
 
 While it is possible to develop software without using any version control, doing so subjects the project to a huge risk that no professional team would be advised to accept. So the question is not whether to use version control but which version control system to use.
 
-There are many choices, but here we are going to focus on just one, Git.
+There are many choices, but here we are going to focus on just one, Git. -->
