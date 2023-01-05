@@ -1,4 +1,4 @@
-<!---
+---
 title: How Test Driven Development is Making Me a Better Developer
 tags: [Test-Driven, Java]
 style: fill
@@ -18,4 +18,4 @@ During the test phase you write a failing test that will implicitly enforce desi
 ## Making Tests Pass
 During code phase your goal is to get to  
 
-## Refactoring -->
+## Refactoring 
