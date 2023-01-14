@@ -9,7 +9,5 @@ description: Simple in browser task manager using local storage to store tasks
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/cd3vane/task-manager" text="View Source" %}
-</p>
-<p class="text-center">
 {% include elements/button.html link="https://cd3vane.dev/task-manager" text="Live Demo" %}
 </p>

@@ -12,8 +12,6 @@ description: Typescript/React using TMDB API to search for movies and add them t
 # React with Typescript Watchlist
 <p class="text-center">
 {% include elements/button.html link="https://github.com/cd3vane/watchlist" text="View Source" %}
-</p>
-<p class="text-center">
 {% include elements/button.html link="https://cd3vane.dev/watchlist" text="Live Demo" %}
 </p>
 
