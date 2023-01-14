@@ -2,7 +2,7 @@
 name: Watchlist App
 tools: [React, Typescript, API]
 image: https://images.unsplash.com/photo-1543536448-d209d2d13a1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZpbG18ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60
-description: Calculator App built test first with JUnit using the memento design pattern to maintain calculator history state 
+description: Watchlist app using typescript/react and TMDB API to search for movies and add them to a local storage watchlist
 ---
 
 
