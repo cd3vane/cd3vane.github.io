@@ -3,7 +3,7 @@ title               : Charles' Portfolio
 description         :
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : cd3vane/cd3vane.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+remote_theme        : cd3vane/cd3vane.github.io   # Using my own theme 
 open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
