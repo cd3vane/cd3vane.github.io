@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · SIGNAL LOST — Charles DeVane</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+</head>
+<body>
+  <main class="error-page container">
+    <p class="terminal-line"><span class="prompt">&gt;</span> signal lost // no artifact at these coordinates</p>
+    <h1>404</h1>
+    <p>Conjecture: this page exists. Counterexample: this page.</p>
+    <p><a class="btn btn-primary" href="/">Re-establish uplink</a></p>
+  </main>
+</body>
+</html>
