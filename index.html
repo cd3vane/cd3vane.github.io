@@ -12,7 +12,7 @@
   <link rel="icon" href="/assets/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/main.css">
   <script>
     // Set theme before first paint to avoid a flash of the wrong scheme
@@ -22,12 +22,18 @@
       document.documentElement.dataset.theme = theme;
     })();
   </script>
+  <!--
+    ┌──────────────────────────────────────────────────┐
+    │  You're reading the source. Good instinct.       │
+    │  There are two more layers. Start at the footer. │
+    └──────────────────────────────────────────────────┘
+  -->
 </head>
 <body>
 
 <header class="site-header">
   <nav class="nav container" aria-label="Primary">
-    <a class="wordmark" href="#top">cd<span class="accent">·</span>evane</a>
+    <a class="wordmark" href="#top"><span class="prompt">~/</span>cd3vane<span class="cursor" aria-hidden="true">_</span></a>
     <div class="nav-links">
       <a href="#philosophy">Philosophy</a>
       <a href="#projects">Projects</a>
@@ -45,23 +51,30 @@
 <main id="top">
 
   <!-- ============ HERO ============ -->
-  <section class="hero container">
-    <p class="eyebrow reveal">Charles DeVane · Full-stack developer · Boca Raton, FL</p>
-    <h1 class="reveal">Software, built<br>like a <em>proof</em>.</h1>
-    <p class="lede reveal">
-      I studied mathematics, taught calculus, and write code the same way I learned to do both:
-      state what should be true, test it, then build until it is. React and TypeScript up front,
-      Java and Node behind, tests first everywhere.
-    </p>
-    <div class="hero-actions reveal">
-      <a class="btn btn-primary" href="#projects">See the work</a>
-      <a class="btn" href="https://github.com/cd3vane" target="_blank" rel="noopener">GitHub ↗</a>
+  <section class="hero">
+    <div class="container">
+      <p class="terminal-line reveal"><span class="prompt">&gt;</span> incoming transmission // 26.3683° N, 80.1289° W // boca raton, fl</p>
+      <h1 class="glitch reveal" data-text="Software, built like a proof.">Software, built<br>like a <em>proof</em>.</h1>
+      <p class="lede reveal">
+        I studied mathematics, taught calculus, and write code the same way I learned to do both:
+        state what should be true, test it, then build until it is. React and TypeScript up front,
+        Java and Node behind, tests first everywhere.
+      </p>
+      <div class="hero-status reveal" role="presentation">
+        <span class="status-chip"><span class="status-dot"></span>STATUS: OPEN TO INTERESTING PROBLEMS</span>
+        <span class="status-chip">SUBJECT: CHARLES DEVANE</span>
+        <span class="status-chip">CLEARANCE: FULL-STACK</span>
+      </div>
+      <div class="hero-actions reveal">
+        <a class="btn btn-primary" href="#projects">See the work</a>
+        <a class="btn" href="https://github.com/cd3vane" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
     </div>
   </section>
 
   <!-- ============ PHILOSOPHY ============ -->
   <section id="philosophy" class="section container">
-    <p class="section-label reveal">01 — Design philosophy</p>
+    <p class="section-label reveal"><span data-decode>SIG.01 // DESIGN_PHILOSOPHY</span></p>
     <h2 class="reveal">How I decide what good looks like</h2>
     <p class="section-intro reveal">
       Before software I taught math — calculus at FAU, everything from arithmetic to differential
@@ -71,7 +84,7 @@
 
     <div class="principles">
       <article class="principle reveal">
-        <span class="principle-num">№ 1</span>
+        <span class="principle-num">AXIOM_01</span>
         <h3>The test is the design</h3>
         <p>
           A failing test written first is a design decision made explicit. Instead of architecting
@@ -80,7 +93,7 @@
         </p>
       </article>
       <article class="principle reveal">
-        <span class="principle-num">№ 2</span>
+        <span class="principle-num">AXIOM_02</span>
         <h3>Teach it to learn it</h3>
         <p>
           Years of tutoring taught me that you don't understand a thing until you can explain it
@@ -89,7 +102,7 @@
         </p>
       </article>
       <article class="principle reveal">
-        <span class="principle-num">№ 3</span>
+        <span class="principle-num">AXIOM_03</span>
         <h3>Small loops beat grand plans</h3>
         <p>
           Every project here started as the smallest thing that could work — a watchlist before a
@@ -98,7 +111,7 @@
         </p>
       </article>
       <article class="principle reveal">
-        <span class="principle-num">№ 4</span>
+        <span class="principle-num">AXIOM_04</span>
         <h3>Proof over promise</h3>
         <p>
           In math, a claim without a proof is just a conjecture. Same for software: "it works" means
@@ -111,11 +124,32 @@
 
   <!-- ============ PROJECTS ============ -->
   <section id="projects" class="section container">
-    <p class="section-label reveal">02 — Selected projects</p>
+    <p class="section-label reveal"><span data-decode>SIG.02 // RECOVERED_ARTIFACTS</span></p>
     <h2 class="reveal">Things I've proven work</h2>
 
     <div class="project-grid">
       <article class="project featured reveal">
+        <!-- To use a real screenshot instead of the generated art:
+             replace the <svg> below with <img src="/assets/img/movies.png" alt="…" loading="lazy"> -->
+        <figure class="project-visual" aria-hidden="true">
+          <svg viewBox="0 0 640 200" preserveAspectRatio="xMidYMid slice">
+            <g class="v-faint">
+              <path d="M0 100 Q40 60 80 100 T160 100 T240 100 T320 100 T400 100 T480 100 T560 100 T640 100" fill="none"/>
+              <path d="M0 100 Q40 150 80 100 T160 100 T240 100 T320 100 T400 100 T480 100 T560 100 T640 100" fill="none"/>
+            </g>
+            <g class="v-line">
+              <rect x="60" y="55" width="120" height="90" rx="6" fill="none"/>
+              <rect x="210" y="40" width="150" height="120" rx="6" fill="none"/>
+              <rect x="390" y="55" width="120" height="90" rx="6" fill="none"/>
+              <path d="M270 75 l45 25 -45 25 z" fill="none"/>
+            </g>
+            <g class="v-dot">
+              <circle cx="120" cy="100" r="3"/><circle cx="450" cy="100" r="3"/>
+              <circle cx="30" cy="40" r="2"/><circle cx="600" cy="160" r="2"/><circle cx="560" cy="45" r="2"/>
+            </g>
+            <text class="v-text" x="212" y="180">REC ● TMDB/FEED_LIVE</text>
+          </svg>
+        </figure>
         <div class="project-body">
           <h3>The Movies Project</h3>
           <p>
@@ -134,6 +168,23 @@
       </article>
 
       <article class="project reveal">
+        <figure class="project-visual" aria-hidden="true">
+          <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice">
+            <g class="v-line">
+              <rect x="40" y="35" width="14" height="14" rx="3" fill="none"/>
+              <rect x="40" y="75" width="14" height="14" rx="3" fill="none"/>
+              <rect x="40" y="115" width="14" height="14" rx="3" fill="none"/>
+              <path d="M42 82 l4 5 7 -9" fill="none"/>
+              <circle cx="245" cy="140" r="26" fill="none"/>
+              <path d="M264 159 l24 24" fill="none"/>
+            </g>
+            <g class="v-faint">
+              <path d="M70 42 h180 M70 82 h180 M70 122 h140"/>
+            </g>
+            <g class="v-dot"><circle cx="290" cy="45" r="2"/><circle cx="30" cy="170" r="2"/></g>
+            <text class="v-text" x="40" y="180">QUERY: unwatched=true</text>
+          </svg>
+        </figure>
         <div class="project-body">
           <h3>Watchlist</h3>
           <p>
@@ -150,6 +201,22 @@
       </article>
 
       <article class="project reveal">
+        <figure class="project-visual" aria-hidden="true">
+          <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice">
+            <g class="v-faint">
+              <path d="M160 60 V90 M160 90 H90 V115 M160 90 H230 V115 M90 145 V160 M230 145 V160"/>
+            </g>
+            <g class="v-line">
+              <rect x="130" y="30" width="60" height="30" rx="6" fill="none"/>
+              <rect x="60" y="115" width="60" height="30" rx="6" fill="none"/>
+              <rect x="200" y="115" width="60" height="30" rx="6" fill="none"/>
+            </g>
+            <g class="v-dot">
+              <circle cx="90" cy="165" r="3"/><circle cx="230" cy="165" r="3"/><circle cx="160" cy="45" r="3"/>
+            </g>
+            <text class="v-text" x="60" y="185">GET /employees → 200 OK</text>
+          </svg>
+        </figure>
         <div class="project-body">
           <h3>Employee Management</h3>
           <p>
@@ -165,6 +232,19 @@
       </article>
 
       <article class="project reveal">
+        <figure class="project-visual" aria-hidden="true">
+          <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice">
+            <g class="v-line">
+              <path d="M80 70 l25 -15 25 15 v30 l-25 15 -25 -15 z" fill="none"/>
+              <path d="M155 100 l25 -15 25 15 v30 l-25 15 -25 -15 z" fill="none"/>
+              <path d="M230 60 l25 -15 25 15 v30 l-25 15 -25 -15 z" fill="none"/>
+              <path d="M105 55 l6 -12 6 12 -6 12 z M105 79 l6 12 6 -12" fill="none"/>
+            </g>
+            <g class="v-faint"><path d="M130 92 L155 108 M205 108 L230 88"/></g>
+            <g class="v-dot"><circle cx="60" cy="150" r="2"/><circle cx="280" cy="150" r="2"/></g>
+            <text class="v-text" x="80" y="180">BLOCK #4207 · CONFIRMED</text>
+          </svg>
+        </figure>
         <div class="project-body">
           <h3>Ethereum CrowdCoin</h3>
           <p>
@@ -179,6 +259,20 @@
       </article>
 
       <article class="project reveal">
+        <figure class="project-visual" aria-hidden="true">
+          <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice">
+            <g class="v-line">
+              <rect x="45" y="40" width="70" height="100" rx="6" fill="none"/>
+              <rect x="125" y="40" width="70" height="70" rx="6" fill="none"/>
+              <rect x="205" y="40" width="70" height="120" rx="6" fill="none"/>
+            </g>
+            <g class="v-faint">
+              <path d="M55 60 h50 M55 80 h50 M55 100 h35 M135 60 h50 M135 80 h35 M215 60 h50 M215 80 h50 M215 100 h50 M215 120 h35"/>
+            </g>
+            <g class="v-dot"><circle cx="160" cy="130" r="3"/></g>
+            <text class="v-text" x="45" y="185">TODO → DOING → DONE</text>
+          </svg>
+        </figure>
         <div class="project-body">
           <h3>Task Manager</h3>
           <p>
@@ -194,6 +288,21 @@
       </article>
 
       <article class="project reveal">
+        <figure class="project-visual" aria-hidden="true">
+          <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice">
+            <g class="v-line">
+              <rect x="70" y="90" width="50" height="70" rx="4" fill="none"/>
+              <circle cx="95" cy="115" r="8" fill="none"/>
+            </g>
+            <g class="v-faint">
+              <path d="M120 100 a60 60 0 0 1 0 60" fill="none"/>
+              <path d="M135 85 a90 90 0 0 1 0 90" fill="none"/>
+              <path d="M150 70 a120 120 0 0 1 0 120" fill="none"/>
+            </g>
+            <g class="v-dot"><circle cx="250" cy="100" r="3"/><circle cx="270" cy="130" r="2"/><circle cx="240" cy="60" r="2"/></g>
+            <text class="v-text" x="70" y="185">RING DETECTED → PUSH SENT</text>
+          </svg>
+        </figure>
         <div class="project-body">
           <h3>Smart Doorbell</h3>
           <p>
@@ -211,7 +320,7 @@
 
   <!-- ============ EXPERIENCE ============ -->
   <section id="experience" class="section container">
-    <p class="section-label reveal">03 — Experience</p>
+    <p class="section-label reveal"><span data-decode>SIG.03 // FIELD_RECORD</span></p>
     <h2 class="reveal">Where I've done the work</h2>
 
     <ol class="timeline">
@@ -265,6 +374,13 @@
           <p>Florida Atlantic University, Boca Raton.</p>
         </div>
       </li>
+      <li class="timeline-item timeline-classified reveal">
+        <div class="timeline-when">NEXT — ?</div>
+        <div class="timeline-what">
+          <h3><span class="redacted">████████████</span> · <span class="redacted">█████████</span></h3>
+          <p>This entry hasn't been written yet. It could be yours — see below.</p>
+        </div>
+      </li>
     </ol>
 
     <p class="reveal">
@@ -274,7 +390,7 @@
 
   <!-- ============ CONTACT ============ -->
   <section id="contact" class="section section-contact container">
-    <p class="section-label reveal">04 — Contact</p>
+    <p class="section-label reveal"><span data-decode>SIG.04 // OPEN_CHANNEL</span></p>
     <h2 class="reveal">The next proof could be yours.</h2>
     <p class="section-intro reveal">
       I'm always up for talking about React, Java, test-driven development, or a project you want
@@ -293,9 +409,26 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <p>© <span id="year">2026</span> Charles DeVane. Designed and hand-built — no theme, no template.</p>
+    <p class="cipher" title="ROT13">Lbh qrpbqrq gur sbbgre. Abj glcr gur jbeq “cebbs” naljurer ba guvf cntr.</p>
     <p><a href="https://github.com/cd3vane/cd3vane.github.io" target="_blank" rel="noopener">View source ↗</a></p>
   </div>
 </footer>
+
+<!-- ============ HIDDEN TRANSMISSION (type "proof" to open) ============ -->
+<div id="access-granted" class="access-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="access-title">
+  <div class="access-panel">
+    <p class="terminal-line"><span class="prompt">&gt;</span> keyword accepted // decrypting…</p>
+    <h2 id="access-title">ACCESS GRANTED</h2>
+    <p>
+      Attention to detail: <strong>confirmed</strong>. People who follow a cipher to the end are
+      exactly the people I want to build things with. Mention the word <em>proof</em> when you
+      <a href="mailto:devane.charles98@gmail.com?subject=proof">email me</a> and we can skip the
+      small talk.
+    </p>
+    <p class="access-sig">— cd3vane · transmission 005 of 005 · end of line</p>
+    <button type="button" class="btn" id="access-close">Close channel</button>
+  </div>
+</div>
 
 <script src="/assets/js/main.js" defer></script>
 </body>
